@@ -1,0 +1,11 @@
+Javan Rhino | T1 | Fewer than 80 remain in Indonesia, habitat destruction and poaching are major threats.
+Hawksbill Turtle | T2 | Hunted for their beautiful shells and affected by coral reef degradation.
+Red Panda | T3 | Threatened by habitat loss and fragmentation in the eastern Himalayas.
+Snow Leopard | T3 | Threatened by poaching and loss of prey due to human encroachment in mountain habitats.
+Mountain Gorilla | T2 | Threatened by habitat loss, poaching, and disease. Population is recovering due to conservation.
+Amur Leopard | T1 | Critically endangered due to poaching and habitat loss in the Russian Far East.
+Vaquita | T1 | The world's rarest marine mammal, nearly extinct due to illegal fishing nets in the Gulf of California.
+Sumatran Elephant | T2 | Endangered due to deforestation for palm oil plantations and human-wildlife conflict.
+African Grey Parrot | T3 | Declining due to capture for the pet trade and loss of forest habitat.
+Blue Whale | T2 | Once hunted extensively, populations are slowly recovering but remain vulnerable to ship strikes.
+
