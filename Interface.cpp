@@ -183,7 +183,7 @@ void Interface::readFile() {
 	while (!file.eof()) {
 		if (j.length() > 0) {
 		strip(j, arr);
-		cout << arr[0]<< ", " << arr[1] << ", " << arr[2] << endl;
+		cout << "\n" << arr[0] << ", " << arr[1] << ", " << arr[2] << endl;
 		// for testing as I read in - you can comment this out you've gotten things working
 		tree->insert(arr[0], arr[1], arr[2]);
 		}

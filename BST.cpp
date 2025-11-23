@@ -23,6 +23,7 @@ bool BST::insert(const string &name, const string &status, const string &info, T
     if (!root) {
         root = new TNode(name, status, info);
         size = 1;
+        cout << "created root" << endl;
         return true;
     }
 
@@ -474,7 +475,7 @@ TNode* BST::leftRotation(TNode* node) {
         return nullptr;
     }
 
-    cout << "Left Rotating: " << node->animal->name << endl;
+    cout << "***************************************\nLeft Rotating: " << node->animal->name << "\n***************************************" << endl;
 
     TNode* rightChild = node->right;
     if (!rightChild) {
@@ -514,7 +515,7 @@ TNode* BST::rightRotation(TNode* node) {
         return nullptr;
     }
 
-    cout << "Right Rotating: " << node->animal->name << endl;
+    cout << "***************************************\nRight Rotating: " << node->animal->name << "\n***************************************" << endl;
 
     TNode* leftChild = node->left;
     if (!leftChild) {

@@ -36,10 +36,31 @@ void TNode::printNode(const bool XtraInfo) {
 
     // printing the node's animal's information
     if (XtraInfo) {
-        cout << "Name: " << animal->name << endl;
+        cout << "\n" << "Name: " << animal->name << endl;
         cout << "Status: " << animal->status << endl;
         cout << "Info: " << animal->info << endl;
         cout << "Height: " << height << "\n";
+        /*******************************************/
+        if (parent) {
+            cout << "Parent: " << parent->animal->name << endl;
+        }
+        else {
+            cout << "Node is Root" << endl;
+        }
+        /*******************************************/
+        if (left) {
+            cout << "Left Child: " << left->animal->name << endl;
+        }
+        else {
+            cout << "No Left Child" << endl;
+        }
+        /*******************************************/
+        if (right) {
+            cout << "Right Child: " << right->animal->name << endl;
+        }
+        else {
+            cout << "No Right Child" << endl;
+        }
     }
 }
 
