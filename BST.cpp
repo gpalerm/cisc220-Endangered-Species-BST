@@ -257,6 +257,7 @@ TNode* BST::removeNode(TNode* node, const string &name) {
             // the removed node
             TNode* temp = node;
             updateHeight(node->parent);
+            checkForRotation(node);
             size--;
             return temp;
         }
@@ -297,6 +298,7 @@ TNode* BST::removeNode(TNode* node, const string &name) {
             // the removed node
             TNode* temp = node;
             updateHeight(node->parent);
+            checkForRotation(node);
             size--;
             return temp;
         }
@@ -323,6 +325,9 @@ TNode* BST::removeNode(TNode* node, const string &name) {
         // also storing the removed node and returning it
         TNode* removed = removeNode(node->right, replacement->animal->name);
         updateHeight(node);
+        checkForRotation(node);
+        //no need to decrease size here because the recursive call handles that when it branches to one of the first two
+        //removal cases
         return removed;
     }
 }
